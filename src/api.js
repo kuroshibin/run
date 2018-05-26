@@ -107,7 +107,7 @@ class LineAPI {
                 this.options.headers['X-Line-Access'] = config.tokenn;
                 this.options.path = this.config.LINE_COMMAND_PATH;
                 this.setTHttpClient(this.options);
-          this.options.headers['User-Agent'] = 'Line/7.18.1';
+          this.options.headers['User-Agent'] = 'Line/8.1.1';
           this.axz = true;
           this.setTHttpClient(this.options);
           this.axz = false;
